@@ -1,0 +1,128 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  background-color: #f5f5f5; /* Light gray background */
+
+}
+body {
+  background-color: #3498db;
+  color: #2c3e50;
+  font-family: 'Arial', sans-serif;
+}
+
+#app {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #e44d26;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#pokemon-info {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #e44d26;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+
+/* Add this style for the Pokemon card */
+.pokemon-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+  margin: 20px auto; /* Center the card */
+}
+
+/* Style for the Pokemon image */
+.pokemon-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Style for the Pokemon details */
+.pokemon-details {
+  font-size: 16px;
+  color: #333;
+}
+.card {
+  background-color: #ecf0f1;
+  border: 1px solid #bdc3c7;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.card p {
+  color: #2c3e50;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #2c3e50;
+}
+.container {
+  text-align: center;
+}
+
+
+img {
+  height: 200px;
+  width: 200px;
+}
